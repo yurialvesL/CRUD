@@ -20,7 +20,7 @@ def conecta():
         print('conxao fechada')
         conexao.close()
 
-#with conecta() as conexao:  MANEIRA 1 DE INSERIR EM TABELA
+#with conecta() as conexao:  MANEIRA 1 DE INSERIR EM TABELAa
     #with conexao.cursor() as cursor:
         #sql = 'INSERT INTO clientes (nome,sobrenome, idade, peso) VALUES '\
             #'(%s,%s,%s,%s)'
